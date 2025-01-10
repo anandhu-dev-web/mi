@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  body{
+    background-color: aliceblue;
+  }
+#navbarText span{
+  position: relative;
+}
+#navbarText span::after{
+  position: absolute;
+  content: '';
+  height: 3px;
+  width:0%;
+  left: 0;
+  bottom: -18px;
+  background-color: #ff6900;
+  
+}
+#navbarText span:hover{
+  color: #ff6900;
+}
+#navbarText span:hover::after{
+  width: 100%;
+}
+#home-carousel{
+    position: relative;
+}
+#home-carousel .carousel-caption{
+    right: 0%;
+    top: 20%;
+    left: 10%;
+    bottom: auto;
+    text-align: start;
+}
+#home-carousel .carousel-caption h3{
+    font-size: 50px;
+}
+#home-carousel .carousel-caption h4{
+    font-size: 25px;
+}
+#feature-tab-button button{
+  background-color: transparent;
+color: black;
+}
+#feature-tab-button .active{
+  color: #ff6900;
+}
+#feature-tab-button .active span{
+font-weight: 700;
+position: relative;
+}
+#feature-tab-button .active span::after{
+position: absolute;
+content: '';
+width:100%;
+height: 2px;
+background-color: #ff6900;
+bottom: -25px;
+left: 0;
+}
+
+.bg-mi{
+    background: color rgb(177, 177, 177);;
+}
+.featured-products{
+  margin: 120px 28.8px ;
+  padding: 0px 32px;
+}
+.feature-products-title{
+  margin: 0px 0px 32px;
+}
+.phone-panel{
+  background-color: #ffffff;
+}
+.feature-tab-row{
+  cursor: pointer;
+}
+.feature-tab-row:hover img{
+  transform: scale(110%);
+  transition: all 0.18s;
+}
+.feature-tab-row img{
+  transform: scale(100%);
+  transition: all 0.18s;
+}
+.feature-tab-row button{
+  position:relative;
+  opacity: 0;
+  transition: all 0.18s;
+  top: 50px;
+}
+.feature-tab-row:hover button{
+  top: 20px;
+  transform: translateY(-20%);
+  transition: all 0.18s;
+  opacity: 1;
+}
+.zoom-in-hover picture{
+  cursor: pointer;
+  transform: scale(100%);
+  transition: all 0.8s;
+}
+.zoom-in-hover:hover picture{
+  transform: scale(110%);
+  transition: all 0.8s;
+}
+.button-hover h6{
+  position: relative;
+  opacity: 1;
+  top: 0;
+  transition: all 0.18s;
+}
+.button-hover button{
+  position: relative;
+  opacity: 0;
+  top: 0;
+  transition: all 0.18s;
+}
+.button-hover:hover h6{
+  top: -10px;
+  transform: translateY(-20);
+  opacity: 0;
+  transition: all 0.18s;
+}
+.button-hover:hover button{
+  top: -20px;
+  transform: translateY(-20);
+  opacity: 1;
+  transition: all 0.18s;
+}
+.exclusive-offers h6{
+  color: gray;
+  font-size: 15px;
+}
+.button-effects{
+  cursor: pointer;
+}
+.button-effects button{
+  position: relative;
+  top: 15px;
+  transform: translateY(-15);
+  opacity: 0;
+  transition: all 0.18s
+}
+.button-effects:hover button{
+  top: 0px;
+  transform: translateY(-0);
+  opacity: 1;
+  transition: all 0.18s
+}
+.footer-main-section ul{
+  list-style: none;
+  margin: 5px 0px;
+  padding: 0px;
+}
+.footer-main-section li{
+  margin: 10px 0px;
+}
+.footer-main-section .container-fluid{
+  padding: 0px 1%;
+}
+.follow-mi  li{
+  display: inline-block;
+  margin: 10px 10px 10px 0px;
+}
+.input-group-lg button{
+  position: relative;
+  top: -48px;
+  left: 90%;
+}
+.input-group-lg input{
+  background-color: transparent;
+  border: 1px solid rgb(189, 189, 189);
+  color: #ffffff;
+}
+.mi-qr-area{
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 10px;
+}
+.app-download{
+  border-top: 1px solid rgb(189, 189, 189);
+}
+footer{
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
+footer a{
+  color: grey;
+  text-decoration: none;
+}
+footer a:hover{
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
