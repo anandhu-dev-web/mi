@@ -47,7 +47,7 @@
     font-style: normal;
   }
   body{
-    background-color: aliceblue;
+    background-color: rgb(228, 228, 228);
   }
 #navbarText span{
   position: relative;
@@ -104,9 +104,8 @@ background-color: #ff6900;
 bottom: -25px;
 left: 0;
 }
-
 .bg-mi{
-    background: color rgb(177, 177, 177);;
+    background: color rgb(236, 236, 236);;
 }
 .featured-products{
   margin: 120px 28.8px ;
@@ -117,6 +116,7 @@ left: 0;
 }
 .phone-panel{
   background-color: #ffffff;
+  border-radius: 10px;
 }
 .feature-tab-row{
   cursor: pointer;
@@ -178,6 +178,10 @@ left: 0;
   color: gray;
   font-size: 15px;
 }
+.exclusive-wrapper{
+  border: none;
+  border-radius: 10px;
+}
 .button-effects{
   cursor: pointer;
 }
@@ -237,4 +241,28 @@ footer a{
 footer a:hover{
   color: rgb(255, 255, 255);
   text-decoration: underline;
+}
+.get-mi-text{
+  font-size: 13px;
+  color: gray;
+}
+.support-wrapper{
+  cursor: pointer;
+}
+.support-wrapper:hover svg{
+  color: #ff6900;
+}
+.support-wrapper svg{
+  color: gray;
+}
+.support-wrapper:hover .mi-icon{
+  color: #ff6900;
+}
+.logo__home{
+  transform: translateX(-100%);
+  transition: all 0.18s;
+}
+.navbar svg:hover .logo__home{
+  transform: translateX(0%);
+  transition: all 0.18s;
 }
